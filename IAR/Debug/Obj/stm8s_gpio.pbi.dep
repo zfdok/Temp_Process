@@ -1,0 +1,10 @@
+stm8s_gpio.pbi: \
+  C:\Users\Administrator\Desktop\STM8\Temp_Process\LIB\src\stm8s_gpio.c \
+  C:\Users\Administrator\Desktop\STM8\Temp_Process\IAR\..\lib\inc\stm8s_gpio.h \
+  C:\Users\Administrator\Desktop\STM8\Temp_Process\IAR\..\lib\inc/stm8s.h \
+  C:\Users\Administrator\Desktop\STM8\Temp_Process\IAR\..\lib\stm8s_conf.h \
+  C:\Users\Administrator\Desktop\STM8\Temp_Process\IAR\..\lib\inc\stm8s.h \
+  C:\Users\Administrator\Desktop\STM8\Temp_Process\IAR\..\lib\inc\stm8s_clk.h \
+  C:\Users\Administrator\Desktop\STM8\Temp_Process\IAR\..\lib\inc\stm8s_spi.h \
+  C:\Users\Administrator\Desktop\STM8\Temp_Process\IAR\..\lib\inc\stm8s_uart1.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\intrinsics.h

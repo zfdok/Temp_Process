@@ -1,0 +1,31 @@
+w25qxx.pbi: C:\Users\Administrator\Desktop\STM8\Temp_Process\BSP\w25qxx.c \
+  C:\Users\Administrator\Desktop\STM8\Temp_Process\IAR\..\usr\pbdata.h \
+  C:\Users\Administrator\Desktop\STM8\Temp_Process\IAR\..\lib\inc\stm8s.h \
+  C:\Users\Administrator\Desktop\STM8\Temp_Process\IAR\..\lib\stm8s_conf.h \
+  C:\Users\Administrator\Desktop\STM8\Temp_Process\IAR\..\lib\inc\stm8s_clk.h \
+  C:\Users\Administrator\Desktop\STM8\Temp_Process\IAR\..\lib\inc/stm8s.h \
+  C:\Users\Administrator\Desktop\STM8\Temp_Process\IAR\..\lib\inc\stm8s_gpio.h \
+  C:\Users\Administrator\Desktop\STM8\Temp_Process\IAR\..\lib\inc\stm8s_spi.h \
+  C:\Users\Administrator\Desktop\STM8\Temp_Process\IAR\..\lib\inc\stm8s_uart1.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\intrinsics.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\stdio.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ycheck.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\yvals.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Defaults.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\LIB\dlstm8smf.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Product.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\xencoding_limits.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Threads.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ysizet.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ystdio.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\math.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ymath.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\xtgmath.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\string.h \
+  C:\Users\Administrator\Desktop\STM8\Temp_Process\BSP\led.h \
+  C:\Users\Administrator\Desktop\STM8\Temp_Process\BSP\uart1.h \
+  C:\Users\Administrator\Desktop\STM8\Temp_Process\BSP\spi.h \
+  C:\Users\Administrator\Desktop\STM8\Temp_Process\BSP\w25qxx.h \
+  C:\Users\Administrator\Desktop\STM8\Temp_Process\BSP\OLEDI2C.h \
+  C:\Users\Administrator\Desktop\STM8\Temp_Process\BSP\OLED12864.h \
+  C:\Users\Administrator\Desktop\STM8\Temp_Process\BSP\DS18B20.h
