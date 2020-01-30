@@ -1,5 +1,4 @@
-OLEDI2C.pbi: \
-  C:\Users\Administrator\Desktop\STM8\Temp_Process\BSP\OLEDI2C.c \
+tim4.pbi: C:\Users\Administrator\Desktop\STM8\Temp_Process\BSP\tim4.c \
   C:\Users\Administrator\Desktop\STM8\Temp_Process\IAR\..\usr\pbdata.h \
   C:\Users\Administrator\Desktop\STM8\Temp_Process\IAR\..\lib\inc\stm8s.h \
   C:\Users\Administrator\Desktop\STM8\Temp_Process\IAR\..\lib\stm8s_conf.h \

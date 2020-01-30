@@ -4,6 +4,7 @@
 #define _OLED12864_H
 #include "stm8s.h"//引用STM8头文件
 
+extern u8 OLED_ON_FLAG;
 
 void OLED_Wcmd(u8 cmd);
 void OLED_Wdata(u8 data);

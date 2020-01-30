@@ -14,7 +14,7 @@ int main(void)
   W25QXX_Demo();
   while(1)//主程序循环，反复执行循环体里的语句
   {
-    TempGetAndSave();
+    
   }
 }
 /***********************************************************************
@@ -31,6 +31,8 @@ void BSP_Configuration(void)
   SPI_Configuration();
   W25QXX_GPIO();
   I2C_init();
+  TIM4_Init();
+  
   OLED_init();
   OLED_Welcome();
   delay_ms(2000);

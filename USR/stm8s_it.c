@@ -30,6 +30,9 @@
 /* Includes ------------------------------------------------------------------*/
 #include "stm8s_it.h"//引入STM8中断的头文件
 #include "pbdata.h"//引入自定义公共头文件
+    
+    
+
 
 /** @addtogroup Template_Project
   * @{
@@ -488,6 +491,26 @@ INTERRUPT_HANDLER(TIM6_UPD_OVF_TRG_IRQHandler, 23)
   /* In order to detect unexpected events during development,
      it is recommended to set a breakpoint on the following instruction.
   */
+   static long time_update=250000;
+   static u8 time_shutOLED_count;//定时关闭OLED的计数器
+   time_update++;
+   if(time_update>=250000)
+   {
+     TempGetAndSave();
+     printf("%ld",time_update);
+     time_update=0;
+     time_shutOLED_count++;
+     if(time_shutOLED_count==10)
+     {
+        time_shutOLED_count=0;
+        if(OLED_ON_FLAG)
+        {
+          printf("此处添加息屏处理");
+          OLED_CLS();
+          OLED_ON_FLAG=0;
+        }
+     }
+   }
  }
 #endif /* (STM8S903) || (STM8AF622x)*/
 

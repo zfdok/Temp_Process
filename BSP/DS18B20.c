@@ -146,13 +146,21 @@ void TempGetAndSave(void)
     {
       if(wflag) 
       {
-        printf("%d\r\n",0.124);
-        OLED_ChangeTemp(0,temp);
+        printf("当前温度: %d℃\r\n",(int)(temp*100));
+        printf("OLED_ON_FLAG%d\r\n",OLED_ON_FLAG);
+        if(OLED_ON_FLAG)
+        {
+          OLED_ChangeTemp(0,temp);
+        }
       }
       else
       {
-        printf("当前温度:-%f℃\r\n",temp);
-        OLED_ChangeTemp(1,temp);
+        printf("当前温度:-%d℃\r\n",(int)(temp*100));
+        printf("OLED_ON_FLAG%d\r\n",OLED_ON_FLAG);
+        if(OLED_ON_FLAG)
+        {
+          OLED_ChangeTemp(1,temp);
+        }
       }
     }
 }

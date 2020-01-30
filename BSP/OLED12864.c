@@ -1,5 +1,7 @@
 #include "pbdata.h"
 #include "OLED_codeTab.h"
+
+u8 OLED_ON_FLAG;
 /*********************OLED写命令************************************/
 void OLED_Wcmd(u8 cmd)
 {
@@ -211,10 +213,11 @@ void OLED_Display()
 	OLED_P16x16Ch(48,0,22);			//是否记录中
 	OLED_ChangeTime(7,18); 		//默认时间7：18
 	OLED_ChangePowerSatus(40);		//电池电量百分比
-	OLED_ChangeTemp(0,0);   		//默认温度0.0
+	//OLED_ChangeTemp(0,0);   		//默认温度0.0
 	OLED_P32x32Ch(96,2,0); 			//℃
 	OLED_ChangeRECNum(0);		//改变记录条数
         OLED_ChangeDate(2020,12,21);    //
+        OLED_ON_FLAG=1;
 }
 void OLED_ChangeTemp(u8 under0,float temp)
 {

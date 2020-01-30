@@ -2,11 +2,27 @@ uart1.pbi: C:\Users\Administrator\Desktop\STM8\Temp_Process\BSP\uart1.c \
   C:\Users\Administrator\Desktop\STM8\Temp_Process\IAR\..\usr\pbdata.h \
   C:\Users\Administrator\Desktop\STM8\Temp_Process\IAR\..\lib\inc\stm8s.h \
   C:\Users\Administrator\Desktop\STM8\Temp_Process\IAR\..\lib\stm8s_conf.h \
-  C:\Users\Administrator\Desktop\STM8\Temp_Process\IAR\..\lib\inc\stm8s_clk.h \
+  C:\Users\Administrator\Desktop\STM8\Temp_Process\IAR\..\lib\inc\stm8s_adc2.h \
   C:\Users\Administrator\Desktop\STM8\Temp_Process\IAR\..\lib\inc/stm8s.h \
+  C:\Users\Administrator\Desktop\STM8\Temp_Process\IAR\..\lib\inc\stm8s_awu.h \
+  C:\Users\Administrator\Desktop\STM8\Temp_Process\IAR\..\lib\inc\stm8s_beep.h \
+  C:\Users\Administrator\Desktop\STM8\Temp_Process\IAR\..\lib\inc\stm8s_can.h \
+  C:\Users\Administrator\Desktop\STM8\Temp_Process\IAR\..\lib\inc\stm8s_clk.h \
+  C:\Users\Administrator\Desktop\STM8\Temp_Process\IAR\..\lib\inc\stm8s_exti.h \
+  C:\Users\Administrator\Desktop\STM8\Temp_Process\IAR\..\lib\inc\stm8s_flash.h \
   C:\Users\Administrator\Desktop\STM8\Temp_Process\IAR\..\lib\inc\stm8s_gpio.h \
+  C:\Users\Administrator\Desktop\STM8\Temp_Process\IAR\..\lib\inc\stm8s_i2c.h \
+  C:\Users\Administrator\Desktop\STM8\Temp_Process\IAR\..\lib\inc\stm8s_itc.h \
+  C:\Users\Administrator\Desktop\STM8\Temp_Process\IAR\..\lib\inc\stm8s_iwdg.h \
+  C:\Users\Administrator\Desktop\STM8\Temp_Process\IAR\..\lib\inc\stm8s_rst.h \
   C:\Users\Administrator\Desktop\STM8\Temp_Process\IAR\..\lib\inc\stm8s_spi.h \
+  C:\Users\Administrator\Desktop\STM8\Temp_Process\IAR\..\lib\inc\stm8s_tim1.h \
+  C:\Users\Administrator\Desktop\STM8\Temp_Process\IAR\..\lib\inc\stm8s_tim2.h \
+  C:\Users\Administrator\Desktop\STM8\Temp_Process\IAR\..\lib\inc\stm8s_tim3.h \
+  C:\Users\Administrator\Desktop\STM8\Temp_Process\IAR\..\lib\inc\stm8s_tim4.h \
   C:\Users\Administrator\Desktop\STM8\Temp_Process\IAR\..\lib\inc\stm8s_uart1.h \
+  C:\Users\Administrator\Desktop\STM8\Temp_Process\IAR\..\lib\inc\stm8s_uart3.h \
+  C:\Users\Administrator\Desktop\STM8\Temp_Process\IAR\..\lib\inc\stm8s_wwdg.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\intrinsics.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\stdio.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ycheck.h \
@@ -28,4 +44,5 @@ uart1.pbi: C:\Users\Administrator\Desktop\STM8\Temp_Process\BSP\uart1.c \
   C:\Users\Administrator\Desktop\STM8\Temp_Process\BSP\w25qxx.h \
   C:\Users\Administrator\Desktop\STM8\Temp_Process\BSP\OLEDI2C.h \
   C:\Users\Administrator\Desktop\STM8\Temp_Process\BSP\OLED12864.h \
-  C:\Users\Administrator\Desktop\STM8\Temp_Process\BSP\DS18B20.h
+  C:\Users\Administrator\Desktop\STM8\Temp_Process\BSP\DS18B20.h \
+  C:\Users\Administrator\Desktop\STM8\Temp_Process\BSP\tim4.h

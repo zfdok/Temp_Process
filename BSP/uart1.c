@@ -38,7 +38,7 @@ void UART1_Printf_Demo(void)
     #define PUTCHAR_PROTOTYPE int __io_putchar(int ch)
 #else
     #define PUTCHAR_PROTOTYPE int fputc(int ch, FILE *f)
-#endif /* __GNUC__ */
+#endif 
 
 PUTCHAR_PROTOTYPE //发送一个字符协议
 {
