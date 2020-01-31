@@ -5,6 +5,7 @@
 #include "stm8s.h"//引用STM8头文件
 
 extern u8 OLED_ON_FLAG;
+extern u8 time_shutOLED_count;//定时关闭OLED的计数器
 
 void OLED_Wcmd(u8 cmd);
 void OLED_Wdata(u8 data);

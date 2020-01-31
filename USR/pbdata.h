@@ -8,6 +8,7 @@
 #include <stdio.h>//需要引用这个头文件才能实现
 #include "math.h"//需要引用这个头文件才能实现
 #include "string.h"
+#include "stdbool.h"//引用头文件stdbool，可以在程序中定义布尔类型变量
 
 #include "led.h"  //引用LED头文件
 #include "uart1.h"//引用RS232头文件
@@ -17,6 +18,7 @@
 #include "OLED12864.h"
 #include "DS18B20.h"
 #include "tim4.h"
+#include "keys.h"
 
 
 

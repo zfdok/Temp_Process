@@ -37,6 +37,7 @@ void BSP_Configuration(void)
   OLED_Welcome();
   delay_ms(2000);
   OLED_Display();
+  KEY_Init();
   rim();//打开总中断
 }
 

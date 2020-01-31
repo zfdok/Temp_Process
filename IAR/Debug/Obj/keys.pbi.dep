@@ -1,6 +1,4 @@
-OLED12864.pbi: \
-  C:\Users\Administrator\Desktop\STM8\Temp_Process\BSP\OLED_codeTab.h \
-  C:\Users\Administrator\Desktop\STM8\Temp_Process\BSP\keys.h \
+keys.pbi: C:\Users\Administrator\Desktop\STM8\Temp_Process\BSP\keys.h \
   C:\Users\Administrator\Desktop\STM8\Temp_Process\BSP\tim4.h \
   C:\Users\Administrator\Desktop\STM8\Temp_Process\BSP\DS18B20.h \
   C:\Users\Administrator\Desktop\STM8\Temp_Process\BSP\OLED12864.h \
@@ -47,4 +45,4 @@ OLED12864.pbi: \
   C:\Users\Administrator\Desktop\STM8\Temp_Process\IAR\..\lib\inc\stm8s_adc2.h \
   C:\Users\Administrator\Desktop\STM8\Temp_Process\IAR\..\lib\stm8s_conf.h \
   C:\Users\Administrator\Desktop\STM8\Temp_Process\IAR\..\usr\pbdata.h \
-  C:\Users\Administrator\Desktop\STM8\Temp_Process\BSP\OLED12864.c
+  C:\Users\Administrator\Desktop\STM8\Temp_Process\BSP\keys.c

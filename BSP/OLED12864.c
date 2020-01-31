@@ -2,6 +2,7 @@
 #include "OLED_codeTab.h"
 
 u8 OLED_ON_FLAG;
+u8 time_shutOLED_count;
 /*********************OLED–¥√¸¡Ó************************************/
 void OLED_Wcmd(u8 cmd)
 {

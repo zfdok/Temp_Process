@@ -21,6 +21,7 @@ rule browsedata
 
 #Build steps
 build DS18B20.pbi : index DS18B20.xcl
+build keys.pbi : index keys.xcl
 build led.pbi : index led.xcl
 build OLED12864.pbi : index OLED12864.xcl
 build OLEDI2C.pbi : index OLEDI2C.xcl
@@ -29,18 +30,21 @@ build tim4.pbi : index tim4.xcl
 build uart1.pbi : index uart1.xcl
 build w25qxx.pbi : index w25qxx.xcl
 build stm8s_clk.pbi : index stm8s_clk.xcl
+build stm8s_exti.pbi : index stm8s_exti.xcl
 build stm8s_gpio.pbi : index stm8s_gpio.xcl
+build stm8s_itc.pbi : index stm8s_itc.xcl
 build stm8s_spi.pbi : index stm8s_spi.xcl
 build stm8s_tim4.pbi : index stm8s_tim4.xcl
 build stm8s_uart1.pbi : index stm8s_uart1.xcl
 build main.pbi : index main.xcl
 build pbdata.pbi : index pbdata.xcl
 build stm8s_it.pbi : index stm8s_it.xcl
-build LY-STM8_part0.pbi : link DS18B20.pbi led.pbi OLED12864.pbi OLEDI2C.pbi
-build LY-STM8_part1.pbi : link spi.pbi tim4.pbi uart1.pbi w25qxx.pbi
-build LY-STM8_part2.pbi : link stm8s_clk.pbi stm8s_gpio.pbi stm8s_spi.pbi stm8s_tim4.pbi
-build LY-STM8_part3.pbi : link stm8s_uart1.pbi main.pbi pbdata.pbi stm8s_it.pbi
-build LY-STM8.pbd : link LY-STM8_part0.pbi LY-STM8_part1.pbi LY-STM8_part2.pbi LY-STM8_part3.pbi
+build LY-STM8_part0.pbi : link DS18B20.pbi keys.pbi led.pbi OLED12864.pbi
+build LY-STM8_part1.pbi : link OLEDI2C.pbi spi.pbi tim4.pbi uart1.pbi
+build LY-STM8_part2.pbi : link w25qxx.pbi stm8s_clk.pbi stm8s_exti.pbi stm8s_gpio.pbi
+build LY-STM8_part3.pbi : link stm8s_itc.pbi stm8s_spi.pbi stm8s_tim4.pbi stm8s_uart1.pbi
+build LY-STM8_part4.pbi : link main.pbi pbdata.pbi stm8s_it.pbi
+build LY-STM8.pbd : link LY-STM8_part0.pbi LY-STM8_part1.pbi LY-STM8_part2.pbi LY-STM8_part3.pbi LY-STM8_part4.pbi
 build LY-STM8.pbw : browsedata LY-STM8.pbd
 
 

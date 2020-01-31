@@ -6,4 +6,4 @@ void TIM4_Init(void)
     TIM4_ARRPreloadConfig(ENABLE);//使能自动重装
     TIM4_ITConfig(TIM4_IT_UPDATE , ENABLE);//数据更新中断
     TIM4_Cmd(ENABLE);//开定时器
-} 
+}

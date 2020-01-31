@@ -145,6 +145,7 @@ INTERRUPT_HANDLER(EXTI_PORTC_IRQHandler, 5)
   /* In order to detect unexpected events during development,
      it is recommended to set a breakpoint on the following instruction.
   */
+  KEY_Press();
 }
 
 /**
@@ -492,7 +493,6 @@ INTERRUPT_HANDLER(TIM6_UPD_OVF_TRG_IRQHandler, 23)
      it is recommended to set a breakpoint on the following instruction.
   */
    static long time_update=250000;
-   static u8 time_shutOLED_count;//定时关闭OLED的计数器
    time_update++;
    if(time_update>=250000)
    {

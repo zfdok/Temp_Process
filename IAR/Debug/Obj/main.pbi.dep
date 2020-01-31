@@ -1,4 +1,5 @@
 main.pbi: \
+  C:\Users\Administrator\Desktop\STM8\Temp_Process\IAR\..\bsp\keys.h \
   C:\Users\Administrator\Desktop\STM8\Temp_Process\IAR\..\bsp\tim4.h \
   C:\Users\Administrator\Desktop\STM8\Temp_Process\IAR\..\bsp\DS18B20.h \
   C:\Users\Administrator\Desktop\STM8\Temp_Process\IAR\..\bsp\OLED12864.h \
@@ -7,6 +8,7 @@ main.pbi: \
   C:\Users\Administrator\Desktop\STM8\Temp_Process\IAR\..\bsp\spi.h \
   C:\Users\Administrator\Desktop\STM8\Temp_Process\IAR\..\bsp\uart1.h \
   C:\Users\Administrator\Desktop\STM8\Temp_Process\IAR\..\bsp\led.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\stdbool.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ysizet.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ycheck.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\string.h \
